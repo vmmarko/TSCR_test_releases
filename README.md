@@ -362,7 +362,7 @@ https://tscr.x10.mx
 
 Download packages are available from the TSCR release page:
 
-https://github.com/vmmarko/TSCR_test_releases/releases
+https://github.com/vmmarko/TSCR-Releases/releases
 
 Typical installation flow:
 
@@ -495,6 +495,7 @@ The applicable legal-document versions are available directly through the applic
 The planned development direction includes:
 
 - **TSCR Authenticator** for TOTP/HOTP authentication and 2FA-secret management,
+- **TSCR CryptoWallet** – a secure, platform-independent software wallet and security wrapper for major cryptocurrencies, built on TSCR’s protected black-box architecture to safeguard private keys, recovery seeds, wallet data, and signing workflows while preserving the native standards and transaction mechanisms of each supported blockchain
 - **TSCR-AI Security Assistant** for intelligent security analysis, assistance, and controlled automation,
 - **TSCR SecureCode engine/framework** as a language-agnostic system for protecting and controlling the execution of application code,
 - **TopSecretChat** for secure and private communication,
