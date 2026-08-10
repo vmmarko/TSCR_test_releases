@@ -167,7 +167,7 @@ It is suitable for smaller and medium text/data workloads where the user wants a
 
 ### TOP SECRET Mode
 
-**TOP SECRET mode** is a **PARANOID-LEVEL** security profile that uses a multiple **(x256 !!)** expanded encryption set.
+**TOP SECRET mode** is a **PARANOID-LEVEL** security profile that uses a multiple **(x1024 !!)** expanded encryption set.
 
 It is intended for scenarios where protection has priority over speed and output size. As expected, it is the slowest native TSCR profile, but for short texts it can have very favorable overhead.
 
