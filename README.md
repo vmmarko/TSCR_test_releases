@@ -11,7 +11,7 @@
 
 ## Production Release Status
 
-**TSCR v2.5.0.0** is the first official production release of the TSCR desktop application and the first complete product built on the TSCR security platform.
+**TSCR v2.5.0.0** is officially available for Windows through Microsoft Store and is also distributed as standalone Windows and Linux release packages through the official TSCR GitHub Releases repository.
 
 This release introduces the production website and distribution channel, a complete live purchase and activation workflow, automatic/deferred/offline activation modes, checkout QR codes, PayPal development-support integration, legal-document handling, the multilingual Help/About system, the protected fallback language module, and the finalized TSCR Tray/app-interface workflow.
 
@@ -85,6 +85,9 @@ TSCR combines and represents:
 | Main file extension | `.tscr` |
 | Primary model | Multi-platform, local-first data and secrets protection |
 | Website | https://tscr.x10.mx |
+| Microsoft Store ID | `9NMC6V5BT3KB` |
+| Microsoft Store | https://apps.microsoft.com/detail/9NMC6V5BT3KB |
+| Official Releases | https://github.com/DMJV-Tech/TSCR-Releases/releases |
 | License | Proprietary – All rights reserved |
 
 The term **“Top Secret”** is used as a product name and security-profile designation. It does **not** imply governmental classification, approval, certification, or endorsement.
@@ -356,28 +359,47 @@ When decrypting TSCR files, the application can detect the relevant internal pro
 
 ## Installation
 
-Visit the official TSCR website:
+Visit the official TSCR website: https://tscr.x10.mx
 
-https://tscr.x10.mx
+### Windows — Microsoft Store
 
-Download packages are available from the TSCR release page:
+The recommended installation method for Windows 10/11 is the official Microsoft Store release:
 
-https://github.com/vmmarko/TSCR-Releases/releases
+https://apps.microsoft.com/detail/9NMC6V5BT3KB
 
-Typical installation flow:
+Microsoft Store ID: `9NMC6V5BT3KB`
 
-1. Download the package for your platform.
+Install TSCR directly through Microsoft Store. Microsoft Store provides the trusted Store installation workflow and manages delivery of Store updates.
+
+### Windows — Standalone Release
+
+A standalone Windows build is also available through the official TSCR GitHub Releases repository:
+
+https://github.com/DMJV-Tech/TSCR-Releases/releases
+
+Typical standalone installation flow:
+
+1. Download the current Windows release package.
 2. Extract the archive.
 3. Run the TSCR executable.
 4. Set your login password and personal/master key.
-5. Start protecting your files, text, and secrets.
+5. Start protecting your files, text, folders, and secrets.
 
-Available packages may include:
+### Linux — Standalone Release
 
-- Windows build
-- Linux build
+The Linux build is available through the official TSCR GitHub Releases repository:
 
-Additional platform-specific builds and mobile versions are planned as part of the TSCR development roadmap.
+https://github.com/DMJV-Tech/TSCR-Releases/releases
+
+Typical installation flow:
+
+1. Download the current Linux release package.
+2. Extract the archive.
+3. Run the TSCR executable.
+4. Set your login password and personal/master key.
+5. Start protecting your files, text, folders, and secrets.
+
+Additional platform-specific builds and mobile/companion versions are planned as part of the TSCR development roadmap.
 
 Exact package names and version numbers depend on the current release.
 
@@ -462,7 +484,7 @@ A new time-limited license starts from successful activation. It does not extend
 - Use Hash/checksum values when you want an additional integrity check for files or archives.
 - Do not disable application login without a clear reason.
 - Regularly update TSCR when new versions are available.
-- Use only official TSCR release/update channels.
+- Use only official TSCR distribution and update channels: Microsoft Store for the Store-distributed Windows version, and the official TSCR GitHub Releases repository for standalone Windows/Linux packages.
 - Do not manually delete or reset local license/protection/application data unless you understand the consequences; the application may enter Demo, Recovery, or restricted-access state.
 - Do not rely on application restart to reset Demo access; Demo is a controlled limited-time state tied to the runtime protection workflow.
 - Treat cloud/server storage as untrusted unless the data is encrypted before leaving your local environment.
